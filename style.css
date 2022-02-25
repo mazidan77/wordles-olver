@@ -50,3 +50,12 @@ button{
 footer span{
     color: #198754;
 }
+
+.para{
+    font-size: 18px;
+    margin: 1px;
+}
+::placeholder {
+   text-align: center;
+  }
+  
