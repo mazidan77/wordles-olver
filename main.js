@@ -115,7 +115,7 @@ document.getElementById("btn").onclick = function(){
 
     var nums = document.getElementById("num").value;
     console.log( "the word is :" + word[nums]);
-//  alert(`the word is  ${word[nums]}`)
-Swal.fire(`the word is : ${word[nums]}`)
+ alert(`the word is  ${word[nums]}`)
+// Swal.fire(`the word is : ${word[nums]}`)
 }   
 
