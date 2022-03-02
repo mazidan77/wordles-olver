@@ -115,7 +115,7 @@ document.getElementById("btn").onclick = function(){
 
     var nums = document.getElementById("number").value;
     console.log( "the word is :" + word[nums]);
-If (nums > 0 || nums < 0){
+If (nums > 2308 || nums < 0){
 
 alert(`please choose number from 0 to 2308`)
 
