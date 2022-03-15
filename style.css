@@ -16,10 +16,10 @@ body{
 .navbar-brand:hover{
     color: aquamarine;
 }
-.one{
+/* .one{
     padding-top: 40px;
     padding-bottom: 40px;
-}
+} */
 label{
     margin-top: 100px;
     margin-bottom: 10px;
@@ -37,7 +37,7 @@ button{
 }
 .hyhy{
     height: calc(100vh - 85px);
-    display: flex;
+   
   
 }
 .tex{
@@ -59,3 +59,18 @@ footer span{
    text-align: center;
   }
   
+  .result{
+display: flex;
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+margin-top: 20px;
+color: #198754;
+font-size: 20px;
+border: solid 2px #198754;
+padding: 5px 10px;
+
+  }
+  .end{
+     font-weight: bold;
+  }
